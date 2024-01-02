@@ -12,3 +12,8 @@
   grid-gap: 4px;
   align-content: center;
 }
+
+.grid-columns-three {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}

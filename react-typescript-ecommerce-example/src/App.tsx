@@ -1,15 +1,17 @@
 import './App.css';
-import { useState, useEffect } from 'react';
 import StorePage from './components/StorePage';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { NavBar } from './components/NavBar';
 
 function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to the store!</h1>
-      </header>
+      <Header/>
+      <NavBar/>
       <StorePage/>
+      <Footer/>
     </div>
   );
 }
