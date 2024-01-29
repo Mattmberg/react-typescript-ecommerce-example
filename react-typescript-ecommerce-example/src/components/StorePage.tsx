@@ -5,7 +5,7 @@ interface Product {
     title: String;
     description: String;
     price: Number;
-  }
+}
 
 export default function StorePage() {
     const [data, setData] = useState<Product[] | any>(null);
